@@ -1,0 +1,109 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #c0c0c0;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    background-color: #cac6c6;
+}
+
+h1, h2 {
+    color: #ffffff;
+    max-width: 1000px;
+    left: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #ffff00;
+}
+
+section {
+    line-height: 1.6;
+}
+
+footer {
+    color: #000000;
+}
+
+.search-form {
+    margin-top: 10px;
+}
+
+.search-form input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.search-form button {
+    padding: 5px 10px;
+    background-color: #008080;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #006666;
+}
+
+.download-icon {
+    position: absolute;
+    top: 40px;
+    left: 400px;
+    width: 100px;
+    height: 100px;
+    z-index: 100; 
+}
+button, a {
+    background-color: #008080;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover, a:hover {
+    background-color: #006666;
+}
+
+body {
+    font-family: "Verdana", sans-serif;
+    color: #333;
+}
+
+h1, h2 {
+    font-family: "Comic Sans MS", cursive;
+    color: #ff9900;
+}
+
+body {
+    transition: background-color 0.5s;
+}
+
+
+.transition-bg {
+    background-color: #fff; 
+}
